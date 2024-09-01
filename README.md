@@ -1,76 +1,86 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# React Portfolio Project
+![image](https://github.com/user-attachments/assets/1ce06fb9-bf06-47c9-8368-1a86128d0852)
 
-<br/>
-
-<center>
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
-
-</center>
-
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
-
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
-
-## Built With
-
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
-
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+This project is a personal portfolio website built with React. It features a responsive design with multiple pages including Home, Projects, About, and Resume sections.
 
 ## Features
 
-**📖 Multi-Page Layout**
+- Responsive design
+- Multiple page routing
+- Preloader for better user experience
+- Scroll to top functionality
+- Bootstrap for styling
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## Technologies Used
 
-**📱 Fully Responsive**
+- React
+- React Router
+- Bootstrap
+- CSS
 
-## Getting Started
+## Prerequisites
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+Before you begin, ensure you have the following installed:
+- Node.js (v12.0.0 or later)
+- npm (v6.0.0 or later)
 
-## 🛠 Installation and Setup Instructions
+## Installation
 
-1. Installation: `npm install`
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/react-portfolio-project.git
+   ```
 
-2. In the project directory, you can run: `npm start`
+2. Navigate to the project directory:
+   ```
+   cd react-portfolio-project
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+3. Install the dependencies:
+   ```
+   npm install
+   ```
 
-## Usage Instructions
+## Usage
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+To run the development server:
 
-### Show your support
+```
+npm start
+```
 
-Give a ⭐ if you like this website!
+The application will be available at `http://localhost:3000`.
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+## Project Structure
+
+- `App.js`: Main component containing the routing logic
+- `components/`:
+  - `Pre.js`: Preloader component
+  - `Navbar.js`: Navigation bar component
+  - `Home/`: Home page components
+  - `About/`: About page components
+  - `Projects/`: Projects page components
+  - `Resume/`: Resume page components
+  - `Footer.js`: Footer component
+  - `ScrollToTop.js`: Scroll to top functionality
+- `style.css` and `App.css`: Custom styles for the application
+
+## Customization
+
+- To modify the content of each section, edit the respective components in the `components/` directory.
+- To change the styling, update the `style.css` and `App.css` files.
+- To add new routes or modify existing ones, update the `Routes` section in `App.js`.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- Create React App for the initial project setup
+- React Router for handling navigation
+- Bootstrap for responsive design components
